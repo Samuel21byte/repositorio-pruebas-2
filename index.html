@@ -10,10 +10,11 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#introduccion">Nosotros</a></li>
-                <li><a href="#programas">Procesos</a></li>
-                <li><a href="#contacto">Galeria</a></li>
-                <li><a href="" id="intranet">Intranet</a></li>
+                <li>Nosotroms</li>
+                <li>Procesos</li>
+                <li>Contacto</li>
+                <li>Galería</li>
+                <li>Intranet</li>
             </ul>
         </nav>
     </header>
@@ -40,6 +41,66 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia expedita, veniam ea autem, architecto commodi nisi officiis doloribus quo magni labore nisi, tenetur quos quod alias. Autem, id!</p>
             </div>
             
+        </section>
+
+        <section>
+            <h2>Contáctenos</h2>
+            <div>
+                <img src="semana3/assets/WhatsApp Image 2024-09-16 at 2.30.32 PM.jpeg" alt="Contacto">
+            </div>
+            <div>
+                <form action="">
+                    <p>
+                        <label for="">Registro</label><br>
+                        <label>
+                            <input type="radio" name="title" value="sr">
+                            Sr <br>
+                        </label>
+                        <label for="">
+                            <input type="radio" name="title" value="sra">
+                            Sra <br>
+                        </label>
+                        <label for="">
+                            <input type="radio" name="title" value="srta">
+                            Srta
+                        </label>
+                        </p>
+                        <p>
+                            <label for="">Nombres:</label><br>
+                            <input pattern="[A-Za-z\s]+" title="Nombres" type="text" name="nombres" required>
+                        </p>
+                        <p>
+                            <label for="">Apellidos:</label><br>
+                            <input pattern="[A-Za-z\s]+" title="Apellidos" type="text" name="apellidos" required>
+                        </p>
+                        <p>
+                            <label for="">Email:</label><br>
+                            <input type="email" name="email" required placeholder="cjsdjvsd@example.com">
+                        </p>
+                        <p>
+                            <label for="">Dirección:</label><br>
+                            <input type="text" title="Email" name="direcccion" required>
+                        </p>
+                        <p>
+                            <label for="">Teléfono:</label><br>
+                            <input type="number" name="telefono" required>
+                        </p>
+                        <p>
+                            <label for="">Regiones</label>
+                            <select name="regiones" required>
+                                <option value="">Madre de Dios</option>
+                                <option value="1">Cusco</option>
+                                <option value="2">Puno</option>
+                                <option value="3">Arequipa</option>
+                                <option value="">Apurimac</option>
+                                <option value="" selected>Ucayali</option>
+                            </select>
+                        </p>
+
+                        <button>Enviar</button>
+                        <button type="reset">Limpiar</button>
+                </form>
+            </div>
         </section>
 
     </main>
